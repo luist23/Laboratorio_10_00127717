@@ -1,0 +1,8 @@
+h1 profile
+ul
+    li
+        a(href="/") Inicio
+    li
+        a(href="/users/logout") salir
+p email : #{JSON.parse(session.user).email}
+p password : #{JSON.parse(session.user).password}
